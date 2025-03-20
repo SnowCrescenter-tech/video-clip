@@ -33,54 +33,86 @@ class VideoWidget(QWidget):
     def init_variables(self):
         """初始化变量"""
         self.current_frame = None
-        self.display_frame = None
+        self.current_display = None  # 重命名，避免与方法名冲突
         self.scale_factor = 1.0
         self.mouse_pos = None
         self.zoom_enabled = False
         self.draw_overlay = False
         self.overlay_info = {}
+        self.is_initialized = True  # 添加初始化标志
         
     def display_frame(self, frame):
         """
         显示视频帧
         :param frame: OpenCV图像(BGR格式)
         """
-        if frame is None:
-            return
+        try:
+            # 确保变量已初始化
+            if not hasattr(self, 'is_initialized'):
+                self.init_variables()
+                
+            # 处理空帧情况
+            if frame is None:
+                self.video_label.clear()
+                self.current_frame = None
+                self.current_display = None
+                return
             
-        self.current_frame = frame.copy()
-        
-        # 转换颜色空间
-        frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        
-        # 创建QImage
-        h, w, ch = frame_rgb.shape
-        bytes_per_line = ch * w
-        qt_image = QImage(
-            frame_rgb.data,
-            w, h,
-            bytes_per_line,
-            QImage.Format.Format_RGB888
-        )
-        
-        # 根据组件大小调整图像
-        scaled_pixmap = QPixmap.fromImage(qt_image).scaled(
-            self.video_label.size(),
-            Qt.AspectRatioMode.KeepAspectRatio,
-            Qt.TransformationMode.SmoothTransformation
-        )
-        
-        # 保存缩放因子
-        self.scale_factor = min(
-            self.video_label.width() / w,
-            self.video_label.height() / h
-        )
-        
-        # 在图像上绘制叠加信息
-        if self.draw_overlay:
-            scaled_pixmap = self._draw_overlay(scaled_pixmap)
+            # 复制输入帧
+            self.current_frame = frame.copy()
             
-        self.video_label.setPixmap(scaled_pixmap)
+            try:
+                # 转换颜色空间
+                frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+                
+                # 获取图像尺寸
+                h, w, ch = frame_rgb.shape
+                bytes_per_line = ch * w
+                
+                # 创建QImage
+                qt_image = QImage(
+                    frame_rgb.data,
+                    w, h,
+                    bytes_per_line,
+                    QImage.Format.Format_RGB888
+                )
+                
+                # 根据组件大小调整图像
+                scaled_pixmap = QPixmap.fromImage(qt_image).scaled(
+                    self.video_label.size(),
+                    Qt.AspectRatioMode.KeepAspectRatio,
+                    Qt.TransformationMode.SmoothTransformation
+                )
+                
+                # 更新缩放因子
+                self.scale_factor = min(
+                    self.video_label.width() / w,
+                    self.video_label.height() / h
+                )
+                
+                # 处理叠加显示
+                if self.draw_overlay:
+                    try:
+                        scaled_pixmap = self._draw_overlay(scaled_pixmap)
+                    except Exception as overlay_error:
+                        print(f"绘制叠加信息时出错: {str(overlay_error)}")
+                
+                # 显示图像
+                self.video_label.setPixmap(scaled_pixmap)
+                self.current_display = scaled_pixmap
+                
+            except cv2.error as cv_error:
+                print(f"OpenCV处理出错: {str(cv_error)}")
+                self.video_label.clear()
+            except Exception as process_error:
+                print(f"图像处理出错: {str(process_error)}")
+                self.video_label.clear()
+                
+        except Exception as e:
+            print(f"显示帧时出错: {str(e)}")
+            self.video_label.clear()
+            self.current_frame = None
+            self.current_display = None
         
     def enable_zoom(self, enabled=True):
         """启用/禁用缩放功能"""

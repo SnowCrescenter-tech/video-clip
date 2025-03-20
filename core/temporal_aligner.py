@@ -1,4 +1,4 @@
-import cv2
+import cv2.cuda
 import numpy as np
 from scipy.signal import correlate
 from scipy.interpolate import interp1d
@@ -25,14 +25,93 @@ class TemporalAligner:
         cap1 = cv2.VideoCapture(video1_path)
         cap2 = cv2.VideoCapture(video2_path)
 
+        if not cap1.isOpened() or not cap2.isOpened():
+            raise ValueError("无法打开视频文件")
+
         # 获取原始帧率
         fps1 = cap1.get(cv2.CAP_PROP_FPS)
         fps2 = cap2.get(cv2.CAP_PROP_FPS)
 
-        # 选择较高的帧率作为目标帧率
-        self.target_fps = max(fps1, fps2)
+        # 选择合适的目标帧率
+        if abs(fps1 - fps2) > 5:  # 如果帧率差异大于5fps
+            # 使用较低帧率的1.5倍作为目标，避免生成过多的插值帧
+            self.target_fps = min(fps1, fps2) * 1.5
+        else:
+            # 帧率接近时使用较高的帧率
+            self.target_fps = max(fps1, fps2)
+
+        # 创建带缓冲的视频捕获器
+        cap1 = BufferedVideoCapture(cap1, self.target_fps, fps1)
+        cap2 = BufferedVideoCapture(cap2, self.target_fps, fps2)
 
         return cap1, cap2, fps1, fps2
+
+class BufferedVideoCapture:
+    """带帧率调整的视频捕获器"""
+
+    def __init__(self, cap, target_fps, original_fps):
+        self.cap = cap
+        self.target_fps = target_fps
+        self.original_fps = original_fps
+        self.frame_buffer = []
+        self.last_pts = 0
+        
+    def read(self):
+        """读取经过帧率调整的帧"""
+        if not self.frame_buffer:
+            # 读取原始帧
+            ret, frame = self.cap.read()
+            if not ret:
+                return False, None
+                
+            if self.target_fps > self.original_fps:
+                # 需要插值生成额外的帧
+                ret2, next_frame = self.cap.read()
+                if ret2:
+                    # 计算需要插入的帧数
+                    ratio = self.target_fps / self.original_fps
+                    n_frames = int(ratio) - 1
+                    
+                    # 生成插值帧
+                    for i in range(n_frames):
+                        alpha = (i + 1) / (n_frames + 1)
+                        interp_frame = cv2.addWeighted(frame, 1 - alpha, next_frame, alpha, 0)
+                        self.frame_buffer.append(interp_frame)
+                        
+                    self.frame_buffer.append(next_frame)
+                    # 回退一帧，因为已经读取了下一帧
+                    self.cap.set(cv2.CAP_PROP_POS_FRAMES, self.cap.get(cv2.CAP_PROP_POS_FRAMES) - 1)
+                
+            elif self.target_fps < self.original_fps:
+                # 需要丢弃一些帧以降低帧率
+                skip_ratio = self.original_fps / self.target_fps
+                current_pos = self.cap.get(cv2.CAP_PROP_POS_FRAMES)
+                next_pos = current_pos + skip_ratio
+                self.cap.set(cv2.CAP_PROP_POS_FRAMES, int(next_pos))
+            
+            self.frame_buffer.append(frame)
+            
+        if self.frame_buffer:
+            return True, self.frame_buffer.pop(0)
+        return False, None
+        
+    def isOpened(self):
+        """检查视频是否打开"""
+        return self.cap.isOpened()
+        
+    def get(self, propId):
+        """获取视频属性"""
+        if propId == cv2.CAP_PROP_FPS:
+            return self.target_fps
+        return self.cap.get(propId)
+        
+    def set(self, propId, value):
+        """设置视频属性"""
+        return self.cap.set(propId, value)
+        
+    def release(self):
+        """释放资源"""
+        self.cap.release()
 
     def compute_frame_correspondence(self, features1, features2):
         """

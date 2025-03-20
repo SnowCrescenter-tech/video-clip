@@ -243,24 +243,83 @@ class MainWindow(QMainWindow):
 
     def update_frame(self):
         """更新显示的视频帧"""
-        frame_info = self.video_processor.get_next_frame()
-        if frame_info is not None:
-            self.video_widget.display_frame(frame_info['frame'])
+        try:
+            frame_info = self.video_processor.get_next_frame()
+            if frame_info is None:
+                if not self.video_processor.is_processing:
+                    self.stop_processing()
+                return
             
-            # 如果需要显示特征点或匹配线
-            params = self.control_panel.get_parameters()
-            if params['show_features'] or params['show_matches']:
-                overlay_info = {}
-                if 'keypoints' in frame_info:
-                    overlay_info['keypoints'] = frame_info['keypoints']
-                if 'matches' in frame_info:
-                    overlay_info['matches'] = frame_info['matches']
-                self.video_widget.set_overlay(True, overlay_info)
+            # 获取帧数据并验证
+            if 'error' in frame_info:
+                # 处理错误帧
+                error_msg = frame_info['error']
+                self.status_label.setText(f"处理出错: {error_msg}")
+                self.status_label.setStyleSheet("color: red")
+                self.video_widget.display_frame(None)
+                return
+                
+            frame = frame_info.get('frame1')  # 使用第一个视频帧作为主显示
+            if frame is not None and isinstance(frame, np.ndarray):
+                # 更新视频帧
+                self.video_widget.display_frame(frame)
+                
+                # 基本状态信息
+                status_text = f"处理进度: {frame_info['frame_index']}/{frame_info['total_frames']} 帧"
+                buffer_status = frame_info.get('buffer_status', {})
+                speed_ratio = frame_info.get('speed_ratio', 1.0)
+                
+                # 添加性能信息
+                if 'processing_time' in frame_info:
+                    status_text += f" | 处理时间: {frame_info['processing_time']*1000:.1f}ms"
+                if 'fps' in frame_info:
+                    status_text += f" | FPS: {frame_info['fps']:.1f}"
+                
+                # 添加缓冲区状态信息
+                if buffer_status:
+                    status_text += f" | 预处理: {buffer_status['preprocess']:.0%}"
+                    status_text += f" | 处理: {buffer_status['process']:.0%}"
+                    status_text += f" | 显示: {buffer_status['display']:.0%}"
+                    
+                # 添加速度比率信息
+                if abs(speed_ratio - 1.0) > 0.1:
+                    status_text += f" | 速度比: {speed_ratio:.2f}x"
+                    
+                # 处理状态颜色
+                if buffer_status.get('is_preprocessing', False):
+                    status_text = "预处理中... " + status_text
+                    self.status_label.setStyleSheet("color: blue")
+                elif 'processing_warning' in frame_info:
+                    status_text += f" | 警告: {frame_info['processing_warning']}"
+                    self.status_label.setStyleSheet("color: orange")
+                else:
+                    self.status_label.setStyleSheet("")
+                    
+                # 更新状态文本
+                self.status_label.setText(status_text)
+                
+                # 如果需要显示特征点或匹配线
+                params = self.control_panel.get_parameters()
+                if params['show_features'] or params['show_matches']:
+                    overlay_info = {}
+                    if 'keypoints' in frame_info:
+                        overlay_info['keypoints'] = frame_info['keypoints']
+                    if 'matches' in frame_info:
+                        overlay_info['matches'] = frame_info['matches']
+                    self.video_widget.set_overlay(True, overlay_info)
+                else:
+                    self.video_widget.set_overlay(False)
+                    
+                # 更新进度信息
+                progress = (frame_info['frame_index'] / frame_info['total_frames']) * 100
+                self.progress_bar.setValue(int(progress))
             else:
-                self.video_widget.set_overlay(False)
-        else:
-            if not self.video_processor.is_processing:
-                self.stop_processing()
+                self.video_widget.display_frame(None)
+                self.status_label.setText("等待帧...")
+                
+        except Exception as e:
+            print(f"更新帧时出错: {str(e)}")
+            self.video_widget.display_frame(None)
 
     def on_parameters_changed(self, params):
         """处理参数变更"""

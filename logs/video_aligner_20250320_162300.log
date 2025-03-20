@@ -1,0 +1,646 @@
+2025-03-20 16:23:00,353 - video_aligner - INFO - VideoProcessor初始化完成
+2025-03-20 16:23:07,585 - video_aligner - INFO - 开始加载视频: C:/Users/Administrator/Desktop/服创资料/无锡低温烟雾环境双光视频 - 副本/output_rgb_smoked2.mp4, C:/Users/Administrator/Desktop/服创资料/无锡低温烟雾环境双光视频 - 副本/output_tr_smoked2.mp4
+2025-03-20 16:23:07,589 - video_aligner - INFO - 视频加载成功: (1920, 1080), 25.0fps, 3187帧
+2025-03-20 16:23:07,589 - video_aligner - INFO - 开始视频处理
+2025-03-20 16:23:07,593 - video_aligner - INFO - 正在启动流处理器
+2025-03-20 16:23:08,259 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.036秒
+2025-03-20 16:23:08,312 - video_aligner - INFO - 预处理完成，开始主循环
+2025-03-20 16:23:08,312 - video_aligner - WARNING - 处理时间过长: 0.036秒
+2025-03-20 16:23:08,435 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.113秒
+2025-03-20 16:23:08,435 - video_aligner - WARNING - 处理时间过长: 0.113秒
+2025-03-20 16:23:08,531 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.127秒
+2025-03-20 16:23:08,532 - video_aligner - WARNING - 处理时间过长: 0.127秒
+2025-03-20 16:23:08,641 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.104秒
+2025-03-20 16:23:08,642 - video_aligner - WARNING - 处理时间过长: 0.104秒
+2025-03-20 16:23:08,756 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.114秒
+2025-03-20 16:23:08,756 - video_aligner - WARNING - 处理时间过长: 0.114秒
+2025-03-20 16:23:08,870 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.120秒
+2025-03-20 16:23:08,870 - video_aligner - WARNING - 处理时间过长: 0.120秒
+2025-03-20 16:23:09,009 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.139秒
+2025-03-20 16:23:09,010 - video_aligner - WARNING - 处理时间过长: 0.139秒
+2025-03-20 16:23:09,117 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.108秒
+2025-03-20 16:23:09,118 - video_aligner - WARNING - 处理时间过长: 0.108秒
+2025-03-20 16:23:09,261 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.138秒
+2025-03-20 16:23:09,262 - video_aligner - WARNING - 处理时间过长: 0.138秒
+2025-03-20 16:23:09,395 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.128秒
+2025-03-20 16:23:09,396 - video_aligner - WARNING - 处理时间过长: 0.128秒
+2025-03-20 16:23:09,498 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.114秒
+2025-03-20 16:23:09,498 - video_aligner - WARNING - 处理时间过长: 0.114秒
+2025-03-20 16:23:09,613 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.116秒
+2025-03-20 16:23:09,614 - video_aligner - WARNING - 处理时间过长: 0.116秒
+2025-03-20 16:23:09,748 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.110秒
+2025-03-20 16:23:09,749 - video_aligner - WARNING - 处理时间过长: 0.110秒
+2025-03-20 16:23:09,830 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.106秒
+2025-03-20 16:23:09,831 - video_aligner - WARNING - 处理时间过长: 0.106秒
+2025-03-20 16:23:09,961 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.131秒
+2025-03-20 16:23:09,962 - video_aligner - WARNING - 处理时间过长: 0.131秒
+2025-03-20 16:23:10,068 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.101秒
+2025-03-20 16:23:10,068 - video_aligner - WARNING - 处理时间过长: 0.101秒
+2025-03-20 16:23:10,173 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.105秒
+2025-03-20 16:23:10,174 - video_aligner - WARNING - 处理时间过长: 0.105秒
+2025-03-20 16:23:10,285 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.112秒
+2025-03-20 16:23:10,286 - video_aligner - WARNING - 处理时间过长: 0.112秒
+2025-03-20 16:23:10,427 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.147秒
+2025-03-20 16:23:10,427 - video_aligner - WARNING - 处理时间过长: 0.147秒
+2025-03-20 16:23:10,531 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.104秒
+2025-03-20 16:23:10,532 - video_aligner - WARNING - 处理时间过长: 0.104秒
+2025-03-20 16:23:10,623 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.093秒
+2025-03-20 16:23:10,624 - video_aligner - WARNING - 处理时间过长: 0.093秒
+2025-03-20 16:23:10,731 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.102秒
+2025-03-20 16:23:10,732 - video_aligner - WARNING - 处理时间过长: 0.102秒
+2025-03-20 16:23:10,840 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.115秒
+2025-03-20 16:23:10,842 - video_aligner - WARNING - 处理时间过长: 0.115秒
+2025-03-20 16:23:10,945 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.105秒
+2025-03-20 16:23:10,946 - video_aligner - WARNING - 处理时间过长: 0.105秒
+2025-03-20 16:23:11,049 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.103秒
+2025-03-20 16:23:11,050 - video_aligner - WARNING - 处理时间过长: 0.103秒
+2025-03-20 16:23:11,163 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.108秒
+2025-03-20 16:23:11,163 - video_aligner - WARNING - 处理时间过长: 0.108秒
+2025-03-20 16:23:11,261 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.104秒
+2025-03-20 16:23:11,262 - video_aligner - WARNING - 处理时间过长: 0.104秒
+2025-03-20 16:23:11,356 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.095秒
+2025-03-20 16:23:11,357 - video_aligner - WARNING - 处理时间过长: 0.095秒
+2025-03-20 16:23:11,480 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.112秒
+2025-03-20 16:23:11,480 - video_aligner - WARNING - 处理时间过长: 0.112秒
+2025-03-20 16:23:11,623 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.144秒
+2025-03-20 16:23:11,624 - video_aligner - WARNING - 处理时间过长: 0.144秒
+2025-03-20 16:23:11,753 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.130秒
+2025-03-20 16:23:11,754 - video_aligner - WARNING - 处理时间过长: 0.130秒
+2025-03-20 16:23:11,886 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.139秒
+2025-03-20 16:23:11,887 - video_aligner - WARNING - 处理时间过长: 0.139秒
+2025-03-20 16:23:12,031 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.144秒
+2025-03-20 16:23:12,031 - video_aligner - WARNING - 处理时间过长: 0.144秒
+2025-03-20 16:23:12,147 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.123秒
+2025-03-20 16:23:12,149 - video_aligner - WARNING - 处理时间过长: 0.123秒
+2025-03-20 16:23:12,238 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.091秒
+2025-03-20 16:23:12,239 - video_aligner - WARNING - 处理时间过长: 0.091秒
+2025-03-20 16:23:12,364 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.125秒
+2025-03-20 16:23:12,365 - video_aligner - WARNING - 处理时间过长: 0.125秒
+2025-03-20 16:23:12,501 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.138秒
+2025-03-20 16:23:12,502 - video_aligner - WARNING - 处理时间过长: 0.138秒
+2025-03-20 16:23:12,619 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.118秒
+2025-03-20 16:23:12,620 - video_aligner - WARNING - 处理时间过长: 0.118秒
+2025-03-20 16:23:12,744 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.119秒
+2025-03-20 16:23:12,745 - video_aligner - WARNING - 处理时间过长: 0.119秒
+2025-03-20 16:23:12,849 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.087秒
+2025-03-20 16:23:12,850 - video_aligner - WARNING - 处理时间过长: 0.087秒
+2025-03-20 16:23:12,994 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.169秒
+2025-03-20 16:23:12,995 - video_aligner - WARNING - 处理时间过长: 0.169秒
+2025-03-20 16:23:13,112 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.118秒
+2025-03-20 16:23:13,113 - video_aligner - WARNING - 处理时间过长: 0.118秒
+2025-03-20 16:23:13,220 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.109秒
+2025-03-20 16:23:13,221 - video_aligner - WARNING - 处理时间过长: 0.109秒
+2025-03-20 16:23:13,338 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.111秒
+2025-03-20 16:23:13,338 - video_aligner - WARNING - 处理时间过长: 0.111秒
+2025-03-20 16:23:13,450 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.119秒
+2025-03-20 16:23:13,451 - video_aligner - WARNING - 处理时间过长: 0.119秒
+2025-03-20 16:23:13,541 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.091秒
+2025-03-20 16:23:13,542 - video_aligner - WARNING - 处理时间过长: 0.091秒
+2025-03-20 16:23:13,640 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.100秒
+2025-03-20 16:23:13,641 - video_aligner - WARNING - 处理时间过长: 0.100秒
+2025-03-20 16:23:13,742 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.095秒
+2025-03-20 16:23:13,742 - video_aligner - WARNING - 处理时间过长: 0.095秒
+2025-03-20 16:23:13,867 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.125秒
+2025-03-20 16:23:13,867 - video_aligner - WARNING - 处理时间过长: 0.125秒
+2025-03-20 16:23:13,998 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.131秒
+2025-03-20 16:23:13,999 - video_aligner - WARNING - 处理时间过长: 0.131秒
+2025-03-20 16:23:14,113 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.115秒
+2025-03-20 16:23:14,114 - video_aligner - WARNING - 处理时间过长: 0.115秒
+2025-03-20 16:23:14,233 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.126秒
+2025-03-20 16:23:14,234 - video_aligner - WARNING - 处理时间过长: 0.126秒
+2025-03-20 16:23:14,335 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.096秒
+2025-03-20 16:23:14,336 - video_aligner - WARNING - 处理时间过长: 0.096秒
+2025-03-20 16:23:14,432 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.103秒
+2025-03-20 16:23:14,433 - video_aligner - WARNING - 处理时间过长: 0.103秒
+2025-03-20 16:23:14,542 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.109秒
+2025-03-20 16:23:14,543 - video_aligner - WARNING - 处理时间过长: 0.109秒
+2025-03-20 16:23:14,665 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.123秒
+2025-03-20 16:23:14,666 - video_aligner - WARNING - 处理时间过长: 0.123秒
+2025-03-20 16:23:14,768 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.097秒
+2025-03-20 16:23:14,769 - video_aligner - WARNING - 处理时间过长: 0.097秒
+2025-03-20 16:23:14,892 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.124秒
+2025-03-20 16:23:14,893 - video_aligner - WARNING - 处理时间过长: 0.124秒
+2025-03-20 16:23:15,010 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.124秒
+2025-03-20 16:23:15,011 - video_aligner - WARNING - 处理时间过长: 0.124秒
+2025-03-20 16:23:15,136 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.120秒
+2025-03-20 16:23:15,137 - video_aligner - WARNING - 处理时间过长: 0.120秒
+2025-03-20 16:23:15,243 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.107秒
+2025-03-20 16:23:15,244 - video_aligner - WARNING - 处理时间过长: 0.107秒
+2025-03-20 16:23:15,349 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.112秒
+2025-03-20 16:23:15,350 - video_aligner - WARNING - 处理时间过长: 0.112秒
+2025-03-20 16:23:15,467 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.105秒
+2025-03-20 16:23:15,467 - video_aligner - WARNING - 处理时间过长: 0.105秒
+2025-03-20 16:23:15,584 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.130秒
+2025-03-20 16:23:15,584 - video_aligner - WARNING - 处理时间过长: 0.130秒
+2025-03-20 16:23:15,678 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.095秒
+2025-03-20 16:23:15,680 - video_aligner - WARNING - 处理时间过长: 0.095秒
+2025-03-20 16:23:15,809 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.118秒
+2025-03-20 16:23:15,809 - video_aligner - WARNING - 处理时间过长: 0.118秒
+2025-03-20 16:23:15,916 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.119秒
+2025-03-20 16:23:15,917 - video_aligner - WARNING - 处理时间过长: 0.119秒
+2025-03-20 16:23:16,007 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.091秒
+2025-03-20 16:23:16,007 - video_aligner - WARNING - 处理时间过长: 0.091秒
+2025-03-20 16:23:16,121 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.108秒
+2025-03-20 16:23:16,121 - video_aligner - WARNING - 处理时间过长: 0.108秒
+2025-03-20 16:23:16,245 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.130秒
+2025-03-20 16:23:16,246 - video_aligner - WARNING - 处理时间过长: 0.130秒
+2025-03-20 16:23:16,351 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.105秒
+2025-03-20 16:23:16,352 - video_aligner - WARNING - 处理时间过长: 0.105秒
+2025-03-20 16:23:16,474 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.124秒
+2025-03-20 16:23:16,475 - video_aligner - WARNING - 处理时间过长: 0.124秒
+2025-03-20 16:23:16,589 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.115秒
+2025-03-20 16:23:16,590 - video_aligner - WARNING - 处理时间过长: 0.115秒
+2025-03-20 16:23:16,697 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.107秒
+2025-03-20 16:23:16,698 - video_aligner - WARNING - 处理时间过长: 0.107秒
+2025-03-20 16:23:16,834 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.138秒
+2025-03-20 16:23:16,836 - video_aligner - WARNING - 处理时间过长: 0.138秒
+2025-03-20 16:23:16,954 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.120秒
+2025-03-20 16:23:16,955 - video_aligner - WARNING - 处理时间过长: 0.120秒
+2025-03-20 16:23:17,084 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.130秒
+2025-03-20 16:23:17,085 - video_aligner - WARNING - 处理时间过长: 0.130秒
+2025-03-20 16:23:17,201 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.117秒
+2025-03-20 16:23:17,202 - video_aligner - WARNING - 处理时间过长: 0.117秒
+2025-03-20 16:23:17,330 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.123秒
+2025-03-20 16:23:17,331 - video_aligner - WARNING - 处理时间过长: 0.123秒
+2025-03-20 16:23:17,430 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.106秒
+2025-03-20 16:23:17,431 - video_aligner - WARNING - 处理时间过长: 0.106秒
+2025-03-20 16:23:17,541 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.110秒
+2025-03-20 16:23:17,542 - video_aligner - WARNING - 处理时间过长: 0.110秒
+2025-03-20 16:23:17,660 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.113秒
+2025-03-20 16:23:17,660 - video_aligner - WARNING - 处理时间过长: 0.113秒
+2025-03-20 16:23:17,777 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.123秒
+2025-03-20 16:23:17,778 - video_aligner - WARNING - 处理时间过长: 0.123秒
+2025-03-20 16:23:17,903 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.126秒
+2025-03-20 16:23:17,904 - video_aligner - WARNING - 处理时间过长: 0.126秒
+2025-03-20 16:23:18,034 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.131秒
+2025-03-20 16:23:18,035 - video_aligner - WARNING - 处理时间过长: 0.131秒
+2025-03-20 16:23:18,154 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.114秒
+2025-03-20 16:23:18,154 - video_aligner - WARNING - 处理时间过长: 0.114秒
+2025-03-20 16:23:18,268 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.114秒
+2025-03-20 16:23:18,269 - video_aligner - WARNING - 处理时间过长: 0.114秒
+2025-03-20 16:23:18,406 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.114秒
+2025-03-20 16:23:18,407 - video_aligner - WARNING - 处理时间过长: 0.114秒
+2025-03-20 16:23:18,505 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.128秒
+2025-03-20 16:23:18,506 - video_aligner - WARNING - 处理时间过长: 0.128秒
+2025-03-20 16:23:18,607 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.102秒
+2025-03-20 16:23:18,608 - video_aligner - WARNING - 处理时间过长: 0.102秒
+2025-03-20 16:23:18,729 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.122秒
+2025-03-20 16:23:18,730 - video_aligner - WARNING - 处理时间过长: 0.122秒
+2025-03-20 16:23:18,840 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.106秒
+2025-03-20 16:23:18,841 - video_aligner - WARNING - 处理时间过长: 0.106秒
+2025-03-20 16:23:18,958 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.124秒
+2025-03-20 16:23:18,959 - video_aligner - WARNING - 处理时间过长: 0.124秒
+2025-03-20 16:23:19,069 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.111秒
+2025-03-20 16:23:19,071 - video_aligner - WARNING - 处理时间过长: 0.111秒
+2025-03-20 16:23:19,200 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.125秒
+2025-03-20 16:23:19,201 - video_aligner - WARNING - 处理时间过长: 0.125秒
+2025-03-20 16:23:19,322 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.128秒
+2025-03-20 16:23:19,323 - video_aligner - WARNING - 处理时间过长: 0.128秒
+2025-03-20 16:23:19,424 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.096秒
+2025-03-20 16:23:19,425 - video_aligner - WARNING - 处理时间过长: 0.096秒
+2025-03-20 16:23:19,543 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.125秒
+2025-03-20 16:23:19,544 - video_aligner - WARNING - 处理时间过长: 0.125秒
+2025-03-20 16:23:19,661 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.117秒
+2025-03-20 16:23:19,662 - video_aligner - WARNING - 处理时间过长: 0.117秒
+2025-03-20 16:23:19,766 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.100秒
+2025-03-20 16:23:19,767 - video_aligner - WARNING - 处理时间过长: 0.100秒
+2025-03-20 16:23:19,862 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.102秒
+2025-03-20 16:23:19,863 - video_aligner - WARNING - 处理时间过长: 0.102秒
+2025-03-20 16:23:20,001 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.139秒
+2025-03-20 16:23:20,002 - video_aligner - WARNING - 处理时间过长: 0.139秒
+2025-03-20 16:23:20,145 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.144秒
+2025-03-20 16:23:20,146 - video_aligner - WARNING - 处理时间过长: 0.144秒
+2025-03-20 16:23:20,264 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.106秒
+2025-03-20 16:23:20,265 - video_aligner - WARNING - 处理时间过长: 0.106秒
+2025-03-20 16:23:20,360 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.108秒
+2025-03-20 16:23:20,360 - video_aligner - WARNING - 处理时间过长: 0.108秒
+2025-03-20 16:23:20,477 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.117秒
+2025-03-20 16:23:20,477 - video_aligner - WARNING - 处理时间过长: 0.117秒
+2025-03-20 16:23:20,573 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.090秒
+2025-03-20 16:23:20,573 - video_aligner - WARNING - 处理时间过长: 0.090秒
+2025-03-20 16:23:20,688 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.121秒
+2025-03-20 16:23:20,689 - video_aligner - WARNING - 处理时间过长: 0.121秒
+2025-03-20 16:23:20,792 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.104秒
+2025-03-20 16:23:20,793 - video_aligner - WARNING - 处理时间过长: 0.104秒
+2025-03-20 16:23:20,925 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.121秒
+2025-03-20 16:23:20,926 - video_aligner - WARNING - 处理时间过长: 0.121秒
+2025-03-20 16:23:21,024 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.110秒
+2025-03-20 16:23:21,025 - video_aligner - WARNING - 处理时间过长: 0.110秒
+2025-03-20 16:23:21,148 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.125秒
+2025-03-20 16:23:21,149 - video_aligner - WARNING - 处理时间过长: 0.125秒
+2025-03-20 16:23:21,281 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.132秒
+2025-03-20 16:23:21,282 - video_aligner - WARNING - 处理时间过长: 0.132秒
+2025-03-20 16:23:21,400 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.120秒
+2025-03-20 16:23:21,401 - video_aligner - WARNING - 处理时间过长: 0.120秒
+2025-03-20 16:23:21,525 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.124秒
+2025-03-20 16:23:21,526 - video_aligner - WARNING - 处理时间过长: 0.124秒
+2025-03-20 16:23:21,637 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.112秒
+2025-03-20 16:23:21,638 - video_aligner - WARNING - 处理时间过长: 0.112秒
+2025-03-20 16:23:21,747 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.110秒
+2025-03-20 16:23:21,748 - video_aligner - WARNING - 处理时间过长: 0.110秒
+2025-03-20 16:23:21,830 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.083秒
+2025-03-20 16:23:21,831 - video_aligner - WARNING - 处理时间过长: 0.083秒
+2025-03-20 16:23:21,959 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.117秒
+2025-03-20 16:23:21,959 - video_aligner - WARNING - 处理时间过长: 0.117秒
+2025-03-20 16:23:22,051 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.104秒
+2025-03-20 16:23:22,052 - video_aligner - WARNING - 处理时间过长: 0.104秒
+2025-03-20 16:23:22,155 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.104秒
+2025-03-20 16:23:22,156 - video_aligner - WARNING - 处理时间过长: 0.104秒
+2025-03-20 16:23:22,245 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.090秒
+2025-03-20 16:23:22,246 - video_aligner - WARNING - 处理时间过长: 0.090秒
+2025-03-20 16:23:22,350 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.099秒
+2025-03-20 16:23:22,350 - video_aligner - WARNING - 处理时间过长: 0.099秒
+2025-03-20 16:23:22,473 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.124秒
+2025-03-20 16:23:22,474 - video_aligner - WARNING - 处理时间过长: 0.124秒
+2025-03-20 16:23:22,600 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.126秒
+2025-03-20 16:23:22,601 - video_aligner - WARNING - 处理时间过长: 0.126秒
+2025-03-20 16:23:22,717 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.123秒
+2025-03-20 16:23:22,718 - video_aligner - WARNING - 处理时间过长: 0.123秒
+2025-03-20 16:23:22,834 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.111秒
+2025-03-20 16:23:22,835 - video_aligner - WARNING - 处理时间过长: 0.111秒
+2025-03-20 16:23:22,933 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.105秒
+2025-03-20 16:23:22,934 - video_aligner - WARNING - 处理时间过长: 0.105秒
+2025-03-20 16:23:23,047 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.113秒
+2025-03-20 16:23:23,048 - video_aligner - WARNING - 处理时间过长: 0.113秒
+2025-03-20 16:23:23,185 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.132秒
+2025-03-20 16:23:23,185 - video_aligner - WARNING - 处理时间过长: 0.132秒
+2025-03-20 16:23:23,277 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.098秒
+2025-03-20 16:23:23,278 - video_aligner - WARNING - 处理时间过长: 0.098秒
+2025-03-20 16:23:23,384 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.107秒
+2025-03-20 16:23:23,385 - video_aligner - WARNING - 处理时间过长: 0.107秒
+2025-03-20 16:23:23,493 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.109秒
+2025-03-20 16:23:23,494 - video_aligner - WARNING - 处理时间过长: 0.109秒
+2025-03-20 16:23:23,598 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.105秒
+2025-03-20 16:23:23,599 - video_aligner - WARNING - 处理时间过长: 0.105秒
+2025-03-20 16:23:23,714 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.104秒
+2025-03-20 16:23:23,715 - video_aligner - WARNING - 处理时间过长: 0.104秒
+2025-03-20 16:23:23,851 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.144秒
+2025-03-20 16:23:23,852 - video_aligner - WARNING - 处理时间过长: 0.144秒
+2025-03-20 16:23:23,978 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.133秒
+2025-03-20 16:23:23,979 - video_aligner - WARNING - 处理时间过长: 0.133秒
+2025-03-20 16:23:24,103 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.119秒
+2025-03-20 16:23:24,104 - video_aligner - WARNING - 处理时间过长: 0.119秒
+2025-03-20 16:23:24,238 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.129秒
+2025-03-20 16:23:24,238 - video_aligner - WARNING - 处理时间过长: 0.129秒
+2025-03-20 16:23:24,337 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.111秒
+2025-03-20 16:23:24,338 - video_aligner - WARNING - 处理时间过长: 0.111秒
+2025-03-20 16:23:24,459 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.092秒
+2025-03-20 16:23:24,460 - video_aligner - WARNING - 处理时间过长: 0.092秒
+2025-03-20 16:23:24,576 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.147秒
+2025-03-20 16:23:24,577 - video_aligner - WARNING - 处理时间过长: 0.147秒
+2025-03-20 16:23:24,703 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.127秒
+2025-03-20 16:23:24,704 - video_aligner - WARNING - 处理时间过长: 0.127秒
+2025-03-20 16:23:24,798 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.095秒
+2025-03-20 16:23:24,799 - video_aligner - WARNING - 处理时间过长: 0.095秒
+2025-03-20 16:23:24,929 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.125秒
+2025-03-20 16:23:24,930 - video_aligner - WARNING - 处理时间过长: 0.125秒
+2025-03-20 16:23:25,033 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.109秒
+2025-03-20 16:23:25,034 - video_aligner - WARNING - 处理时间过长: 0.109秒
+2025-03-20 16:23:25,139 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.106秒
+2025-03-20 16:23:25,140 - video_aligner - WARNING - 处理时间过长: 0.106秒
+2025-03-20 16:23:25,242 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.103秒
+2025-03-20 16:23:25,243 - video_aligner - WARNING - 处理时间过长: 0.103秒
+2025-03-20 16:23:25,359 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.117秒
+2025-03-20 16:23:25,360 - video_aligner - WARNING - 处理时间过长: 0.117秒
+2025-03-20 16:23:25,452 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.093秒
+2025-03-20 16:23:25,453 - video_aligner - WARNING - 处理时间过长: 0.093秒
+2025-03-20 16:23:25,559 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.107秒
+2025-03-20 16:23:25,560 - video_aligner - WARNING - 处理时间过长: 0.107秒
+2025-03-20 16:23:25,654 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.094秒
+2025-03-20 16:23:25,655 - video_aligner - WARNING - 处理时间过长: 0.094秒
+2025-03-20 16:23:25,765 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.106秒
+2025-03-20 16:23:25,767 - video_aligner - WARNING - 处理时间过长: 0.106秒
+2025-03-20 16:23:25,877 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.117秒
+2025-03-20 16:23:25,878 - video_aligner - WARNING - 处理时间过长: 0.117秒
+2025-03-20 16:23:25,977 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.095秒
+2025-03-20 16:23:25,978 - video_aligner - WARNING - 处理时间过长: 0.095秒
+2025-03-20 16:23:26,090 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.119秒
+2025-03-20 16:23:26,091 - video_aligner - WARNING - 处理时间过长: 0.119秒
+2025-03-20 16:23:26,200 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.110秒
+2025-03-20 16:23:26,201 - video_aligner - WARNING - 处理时间过长: 0.110秒
+2025-03-20 16:23:26,306 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.106秒
+2025-03-20 16:23:26,307 - video_aligner - WARNING - 处理时间过长: 0.106秒
+2025-03-20 16:23:26,412 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.106秒
+2025-03-20 16:23:26,413 - video_aligner - WARNING - 处理时间过长: 0.106秒
+2025-03-20 16:23:26,542 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.129秒
+2025-03-20 16:23:26,543 - video_aligner - WARNING - 处理时间过长: 0.129秒
+2025-03-20 16:23:26,634 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.092秒
+2025-03-20 16:23:26,635 - video_aligner - WARNING - 处理时间过长: 0.092秒
+2025-03-20 16:23:26,751 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.111秒
+2025-03-20 16:23:26,752 - video_aligner - WARNING - 处理时间过长: 0.111秒
+2025-03-20 16:23:26,897 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.140秒
+2025-03-20 16:23:26,898 - video_aligner - WARNING - 处理时间过长: 0.140秒
+2025-03-20 16:23:27,021 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.135秒
+2025-03-20 16:23:27,022 - video_aligner - WARNING - 处理时间过长: 0.135秒
+2025-03-20 16:23:27,159 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.127秒
+2025-03-20 16:23:27,160 - video_aligner - WARNING - 处理时间过长: 0.127秒
+2025-03-20 16:23:27,259 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.112秒
+2025-03-20 16:23:27,260 - video_aligner - WARNING - 处理时间过长: 0.112秒
+2025-03-20 16:23:27,365 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.106秒
+2025-03-20 16:23:27,366 - video_aligner - WARNING - 处理时间过长: 0.106秒
+2025-03-20 16:23:27,476 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.105秒
+2025-03-20 16:23:27,477 - video_aligner - WARNING - 处理时间过长: 0.105秒
+2025-03-20 16:23:27,583 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.112秒
+2025-03-20 16:23:27,584 - video_aligner - WARNING - 处理时间过长: 0.112秒
+2025-03-20 16:23:27,699 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.116秒
+2025-03-20 16:23:27,700 - video_aligner - WARNING - 处理时间过长: 0.116秒
+2025-03-20 16:23:27,821 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.122秒
+2025-03-20 16:23:27,822 - video_aligner - WARNING - 处理时间过长: 0.122秒
+2025-03-20 16:23:27,929 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.107秒
+2025-03-20 16:23:27,930 - video_aligner - WARNING - 处理时间过长: 0.107秒
+2025-03-20 16:23:28,048 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.120秒
+2025-03-20 16:23:28,050 - video_aligner - WARNING - 处理时间过长: 0.120秒
+2025-03-20 16:23:28,154 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.105秒
+2025-03-20 16:23:28,155 - video_aligner - WARNING - 处理时间过长: 0.105秒
+2025-03-20 16:23:28,266 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.112秒
+2025-03-20 16:23:28,267 - video_aligner - WARNING - 处理时间过长: 0.112秒
+2025-03-20 16:23:28,389 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.123秒
+2025-03-20 16:23:28,390 - video_aligner - WARNING - 处理时间过长: 0.123秒
+2025-03-20 16:23:28,497 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.107秒
+2025-03-20 16:23:28,498 - video_aligner - WARNING - 处理时间过长: 0.107秒
+2025-03-20 16:23:28,597 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.100秒
+2025-03-20 16:23:28,598 - video_aligner - WARNING - 处理时间过长: 0.100秒
+2025-03-20 16:23:28,740 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.131秒
+2025-03-20 16:23:28,740 - video_aligner - WARNING - 处理时间过长: 0.131秒
+2025-03-20 16:23:28,852 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.098秒
+2025-03-20 16:23:28,852 - video_aligner - WARNING - 处理时间过长: 0.098秒
+2025-03-20 16:23:28,947 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.121秒
+2025-03-20 16:23:28,948 - video_aligner - WARNING - 处理时间过长: 0.121秒
+2025-03-20 16:23:29,080 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.133秒
+2025-03-20 16:23:29,081 - video_aligner - WARNING - 处理时间过长: 0.133秒
+2025-03-20 16:23:29,190 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.111秒
+2025-03-20 16:23:29,191 - video_aligner - WARNING - 处理时间过长: 0.111秒
+2025-03-20 16:23:29,315 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.108秒
+2025-03-20 16:23:29,316 - video_aligner - WARNING - 处理时间过长: 0.108秒
+2025-03-20 16:23:29,405 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.106秒
+2025-03-20 16:23:29,406 - video_aligner - WARNING - 处理时间过长: 0.106秒
+2025-03-20 16:23:29,513 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.108秒
+2025-03-20 16:23:29,514 - video_aligner - WARNING - 处理时间过长: 0.108秒
+2025-03-20 16:23:29,627 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.114秒
+2025-03-20 16:23:29,628 - video_aligner - WARNING - 处理时间过长: 0.114秒
+2025-03-20 16:23:29,737 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.105秒
+2025-03-20 16:23:29,738 - video_aligner - WARNING - 处理时间过长: 0.105秒
+2025-03-20 16:23:29,854 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.117秒
+2025-03-20 16:23:29,855 - video_aligner - WARNING - 处理时间过长: 0.117秒
+2025-03-20 16:23:29,971 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.122秒
+2025-03-20 16:23:29,971 - video_aligner - WARNING - 处理时间过长: 0.122秒
+2025-03-20 16:23:30,075 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.104秒
+2025-03-20 16:23:30,076 - video_aligner - WARNING - 处理时间过长: 0.104秒
+2025-03-20 16:23:30,209 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.122秒
+2025-03-20 16:23:30,210 - video_aligner - WARNING - 处理时间过长: 0.122秒
+2025-03-20 16:23:30,326 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.123秒
+2025-03-20 16:23:30,327 - video_aligner - WARNING - 处理时间过长: 0.123秒
+2025-03-20 16:23:30,446 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.125秒
+2025-03-20 16:23:30,446 - video_aligner - WARNING - 处理时间过长: 0.125秒
+2025-03-20 16:23:30,558 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.112秒
+2025-03-20 16:23:30,559 - video_aligner - WARNING - 处理时间过长: 0.112秒
+2025-03-20 16:23:30,665 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.107秒
+2025-03-20 16:23:30,667 - video_aligner - WARNING - 处理时间过长: 0.107秒
+2025-03-20 16:23:30,795 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.124秒
+2025-03-20 16:23:30,795 - video_aligner - WARNING - 处理时间过长: 0.124秒
+2025-03-20 16:23:30,907 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.118秒
+2025-03-20 16:23:30,908 - video_aligner - WARNING - 处理时间过长: 0.118秒
+2025-03-20 16:23:31,009 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.102秒
+2025-03-20 16:23:31,010 - video_aligner - WARNING - 处理时间过长: 0.102秒
+2025-03-20 16:23:31,117 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.108秒
+2025-03-20 16:23:31,118 - video_aligner - WARNING - 处理时间过长: 0.108秒
+2025-03-20 16:23:31,223 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.099秒
+2025-03-20 16:23:31,223 - video_aligner - WARNING - 处理时间过长: 0.099秒
+2025-03-20 16:23:31,349 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.127秒
+2025-03-20 16:23:31,350 - video_aligner - WARNING - 处理时间过长: 0.127秒
+2025-03-20 16:23:31,437 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.094秒
+2025-03-20 16:23:31,438 - video_aligner - WARNING - 处理时间过长: 0.094秒
+2025-03-20 16:23:31,548 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.105秒
+2025-03-20 16:23:31,549 - video_aligner - WARNING - 处理时间过长: 0.105秒
+2025-03-20 16:23:31,659 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.105秒
+2025-03-20 16:23:31,659 - video_aligner - WARNING - 处理时间过长: 0.105秒
+2025-03-20 16:23:31,767 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.120秒
+2025-03-20 16:23:31,767 - video_aligner - WARNING - 处理时间过长: 0.120秒
+2025-03-20 16:23:31,868 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.101秒
+2025-03-20 16:23:31,869 - video_aligner - WARNING - 处理时间过长: 0.101秒
+2025-03-20 16:23:31,978 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.110秒
+2025-03-20 16:23:31,979 - video_aligner - WARNING - 处理时间过长: 0.110秒
+2025-03-20 16:23:32,122 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.138秒
+2025-03-20 16:23:32,122 - video_aligner - WARNING - 处理时间过长: 0.138秒
+2025-03-20 16:23:32,219 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.103秒
+2025-03-20 16:23:32,220 - video_aligner - WARNING - 处理时间过长: 0.103秒
+2025-03-20 16:23:32,331 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.112秒
+2025-03-20 16:23:32,331 - video_aligner - WARNING - 处理时间过长: 0.112秒
+2025-03-20 16:23:32,422 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.092秒
+2025-03-20 16:23:32,423 - video_aligner - WARNING - 处理时间过长: 0.092秒
+2025-03-20 16:23:32,564 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.124秒
+2025-03-20 16:23:32,565 - video_aligner - WARNING - 处理时间过长: 0.124秒
+2025-03-20 16:23:32,688 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.123秒
+2025-03-20 16:23:32,689 - video_aligner - WARNING - 处理时间过长: 0.123秒
+2025-03-20 16:23:32,802 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.133秒
+2025-03-20 16:23:32,803 - video_aligner - WARNING - 处理时间过长: 0.133秒
+2025-03-20 16:23:32,910 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.107秒
+2025-03-20 16:23:32,910 - video_aligner - WARNING - 处理时间过长: 0.107秒
+2025-03-20 16:23:33,033 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.123秒
+2025-03-20 16:23:33,034 - video_aligner - WARNING - 处理时间过长: 0.123秒
+2025-03-20 16:23:33,139 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.106秒
+2025-03-20 16:23:33,140 - video_aligner - WARNING - 处理时间过长: 0.106秒
+2025-03-20 16:23:33,264 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.119秒
+2025-03-20 16:23:33,264 - video_aligner - WARNING - 处理时间过长: 0.119秒
+2025-03-20 16:23:33,357 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.094秒
+2025-03-20 16:23:33,358 - video_aligner - WARNING - 处理时间过长: 0.094秒
+2025-03-20 16:23:33,445 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.093秒
+2025-03-20 16:23:33,445 - video_aligner - WARNING - 处理时间过长: 0.093秒
+2025-03-20 16:23:33,563 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.112秒
+2025-03-20 16:23:33,564 - video_aligner - WARNING - 处理时间过长: 0.112秒
+2025-03-20 16:23:33,671 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.109秒
+2025-03-20 16:23:33,672 - video_aligner - WARNING - 处理时间过长: 0.109秒
+2025-03-20 16:23:33,803 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.137秒
+2025-03-20 16:23:33,804 - video_aligner - WARNING - 处理时间过长: 0.137秒
+2025-03-20 16:23:33,909 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.107秒
+2025-03-20 16:23:33,910 - video_aligner - WARNING - 处理时间过长: 0.107秒
+2025-03-20 16:23:34,044 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.114秒
+2025-03-20 16:23:34,044 - video_aligner - WARNING - 处理时间过长: 0.114秒
+2025-03-20 16:23:34,163 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.139秒
+2025-03-20 16:23:34,164 - video_aligner - WARNING - 处理时间过长: 0.139秒
+2025-03-20 16:23:34,278 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.109秒
+2025-03-20 16:23:34,279 - video_aligner - WARNING - 处理时间过长: 0.109秒
+2025-03-20 16:23:34,388 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.115秒
+2025-03-20 16:23:34,388 - video_aligner - WARNING - 处理时间过长: 0.115秒
+2025-03-20 16:23:34,507 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.120秒
+2025-03-20 16:23:34,508 - video_aligner - WARNING - 处理时间过长: 0.120秒
+2025-03-20 16:23:34,627 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.119秒
+2025-03-20 16:23:34,627 - video_aligner - WARNING - 处理时间过长: 0.119秒
+2025-03-20 16:23:34,740 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.113秒
+2025-03-20 16:23:34,741 - video_aligner - WARNING - 处理时间过长: 0.113秒
+2025-03-20 16:23:34,855 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.115秒
+2025-03-20 16:23:34,855 - video_aligner - WARNING - 处理时间过长: 0.115秒
+2025-03-20 16:23:34,959 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.098秒
+2025-03-20 16:23:34,959 - video_aligner - WARNING - 处理时间过长: 0.098秒
+2025-03-20 16:23:35,070 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.112秒
+2025-03-20 16:23:35,071 - video_aligner - WARNING - 处理时间过长: 0.112秒
+2025-03-20 16:23:35,195 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.125秒
+2025-03-20 16:23:35,196 - video_aligner - WARNING - 处理时间过长: 0.125秒
+2025-03-20 16:23:35,298 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.109秒
+2025-03-20 16:23:35,299 - video_aligner - WARNING - 处理时间过长: 0.109秒
+2025-03-20 16:23:35,421 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.111秒
+2025-03-20 16:23:35,422 - video_aligner - WARNING - 处理时间过长: 0.111秒
+2025-03-20 16:23:35,536 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.120秒
+2025-03-20 16:23:35,537 - video_aligner - WARNING - 处理时间过长: 0.120秒
+2025-03-20 16:23:35,643 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.107秒
+2025-03-20 16:23:35,643 - video_aligner - WARNING - 处理时间过长: 0.107秒
+2025-03-20 16:23:35,781 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.123秒
+2025-03-20 16:23:35,782 - video_aligner - WARNING - 处理时间过长: 0.123秒
+2025-03-20 16:23:35,895 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.136秒
+2025-03-20 16:23:35,896 - video_aligner - WARNING - 处理时间过长: 0.136秒
+2025-03-20 16:23:36,010 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.114秒
+2025-03-20 16:23:36,011 - video_aligner - WARNING - 处理时间过长: 0.114秒
+2025-03-20 16:23:36,117 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.107秒
+2025-03-20 16:23:36,118 - video_aligner - WARNING - 处理时间过长: 0.107秒
+2025-03-20 16:23:36,232 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.109秒
+2025-03-20 16:23:36,233 - video_aligner - WARNING - 处理时间过长: 0.109秒
+2025-03-20 16:23:36,332 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.105秒
+2025-03-20 16:23:36,332 - video_aligner - WARNING - 处理时间过长: 0.105秒
+2025-03-20 16:23:36,463 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.126秒
+2025-03-20 16:23:36,464 - video_aligner - WARNING - 处理时间过长: 0.126秒
+2025-03-20 16:23:36,568 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.110秒
+2025-03-20 16:23:36,569 - video_aligner - WARNING - 处理时间过长: 0.110秒
+2025-03-20 16:23:36,691 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.118秒
+2025-03-20 16:23:36,691 - video_aligner - WARNING - 处理时间过长: 0.118秒
+2025-03-20 16:23:36,798 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.113秒
+2025-03-20 16:23:36,799 - video_aligner - WARNING - 处理时间过长: 0.113秒
+2025-03-20 16:23:36,930 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.132秒
+2025-03-20 16:23:36,931 - video_aligner - WARNING - 处理时间过长: 0.132秒
+2025-03-20 16:23:37,017 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.087秒
+2025-03-20 16:23:37,018 - video_aligner - WARNING - 处理时间过长: 0.087秒
+2025-03-20 16:23:37,131 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.108秒
+2025-03-20 16:23:37,131 - video_aligner - WARNING - 处理时间过长: 0.108秒
+2025-03-20 16:23:37,255 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.130秒
+2025-03-20 16:23:37,256 - video_aligner - WARNING - 处理时间过长: 0.130秒
+2025-03-20 16:23:37,369 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.114秒
+2025-03-20 16:23:37,370 - video_aligner - WARNING - 处理时间过长: 0.114秒
+2025-03-20 16:23:37,478 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.108秒
+2025-03-20 16:23:37,478 - video_aligner - WARNING - 处理时间过长: 0.108秒
+2025-03-20 16:23:37,571 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.094秒
+2025-03-20 16:23:37,572 - video_aligner - WARNING - 处理时间过长: 0.094秒
+2025-03-20 16:23:37,673 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.102秒
+2025-03-20 16:23:37,674 - video_aligner - WARNING - 处理时间过长: 0.102秒
+2025-03-20 16:23:37,788 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.110秒
+2025-03-20 16:23:37,790 - video_aligner - WARNING - 处理时间过长: 0.110秒
+2025-03-20 16:23:37,906 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.124秒
+2025-03-20 16:23:37,907 - video_aligner - WARNING - 处理时间过长: 0.124秒
+2025-03-20 16:23:38,059 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.140秒
+2025-03-20 16:23:38,060 - video_aligner - WARNING - 处理时间过长: 0.140秒
+2025-03-20 16:23:38,158 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.112秒
+2025-03-20 16:23:38,159 - video_aligner - WARNING - 处理时间过长: 0.112秒
+2025-03-20 16:23:38,289 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.125秒
+2025-03-20 16:23:38,290 - video_aligner - WARNING - 处理时间过长: 0.125秒
+2025-03-20 16:23:38,406 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.117秒
+2025-03-20 16:23:38,407 - video_aligner - WARNING - 处理时间过长: 0.117秒
+2025-03-20 16:23:38,506 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.105秒
+2025-03-20 16:23:38,507 - video_aligner - WARNING - 处理时间过长: 0.105秒
+2025-03-20 16:23:38,616 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.104秒
+2025-03-20 16:23:38,617 - video_aligner - WARNING - 处理时间过长: 0.104秒
+2025-03-20 16:23:38,718 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.107秒
+2025-03-20 16:23:38,719 - video_aligner - WARNING - 处理时间过长: 0.107秒
+2025-03-20 16:23:38,848 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.119秒
+2025-03-20 16:23:38,849 - video_aligner - WARNING - 处理时间过长: 0.119秒
+2025-03-20 16:23:38,964 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.127秒
+2025-03-20 16:23:38,965 - video_aligner - WARNING - 处理时间过长: 0.127秒
+2025-03-20 16:23:39,089 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.119秒
+2025-03-20 16:23:39,089 - video_aligner - WARNING - 处理时间过长: 0.119秒
+2025-03-20 16:23:39,213 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.130秒
+2025-03-20 16:23:39,214 - video_aligner - WARNING - 处理时间过长: 0.130秒
+2025-03-20 16:23:39,329 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.116秒
+2025-03-20 16:23:39,330 - video_aligner - WARNING - 处理时间过长: 0.116秒
+2025-03-20 16:23:39,438 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.103秒
+2025-03-20 16:23:39,439 - video_aligner - WARNING - 处理时间过长: 0.103秒
+2025-03-20 16:23:39,532 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.100秒
+2025-03-20 16:23:39,533 - video_aligner - WARNING - 处理时间过长: 0.100秒
+2025-03-20 16:23:39,635 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.103秒
+2025-03-20 16:23:39,636 - video_aligner - WARNING - 处理时间过长: 0.103秒
+2025-03-20 16:23:39,778 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.137秒
+2025-03-20 16:23:39,779 - video_aligner - WARNING - 处理时间过长: 0.137秒
+2025-03-20 16:23:39,889 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.111秒
+2025-03-20 16:23:39,890 - video_aligner - WARNING - 处理时间过长: 0.111秒
+2025-03-20 16:23:40,001 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.118秒
+2025-03-20 16:23:40,002 - video_aligner - WARNING - 处理时间过长: 0.118秒
+2025-03-20 16:23:40,120 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.113秒
+2025-03-20 16:23:40,121 - video_aligner - WARNING - 处理时间过长: 0.113秒
+2025-03-20 16:23:40,258 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.132秒
+2025-03-20 16:23:40,259 - video_aligner - WARNING - 处理时间过长: 0.132秒
+2025-03-20 16:23:40,385 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.120秒
+2025-03-20 16:23:40,385 - video_aligner - WARNING - 处理时间过长: 0.120秒
+2025-03-20 16:23:40,466 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.100秒
+2025-03-20 16:23:40,467 - video_aligner - WARNING - 处理时间过长: 0.100秒
+2025-03-20 16:23:40,569 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.096秒
+2025-03-20 16:23:40,570 - video_aligner - WARNING - 处理时间过长: 0.096秒
+2025-03-20 16:23:40,671 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.108秒
+2025-03-20 16:23:40,672 - video_aligner - WARNING - 处理时间过长: 0.108秒
+2025-03-20 16:23:40,779 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.108秒
+2025-03-20 16:23:40,779 - video_aligner - WARNING - 处理时间过长: 0.108秒
+2025-03-20 16:23:40,881 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.102秒
+2025-03-20 16:23:40,882 - video_aligner - WARNING - 处理时间过长: 0.102秒
+2025-03-20 16:23:40,986 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.100秒
+2025-03-20 16:23:40,988 - video_aligner - WARNING - 处理时间过长: 0.100秒
+2025-03-20 16:23:41,113 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.115秒
+2025-03-20 16:23:41,114 - video_aligner - WARNING - 处理时间过长: 0.115秒
+2025-03-20 16:23:41,251 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.143秒
+2025-03-20 16:23:41,251 - video_aligner - WARNING - 处理时间过长: 0.143秒
+2025-03-20 16:23:41,373 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.117秒
+2025-03-20 16:23:41,374 - video_aligner - WARNING - 处理时间过长: 0.117秒
+2025-03-20 16:23:41,479 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.098秒
+2025-03-20 16:23:41,479 - video_aligner - WARNING - 处理时间过长: 0.098秒
+2025-03-20 16:23:41,569 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.108秒
+2025-03-20 16:23:41,569 - video_aligner - WARNING - 处理时间过长: 0.108秒
+2025-03-20 16:23:41,671 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.108秒
+2025-03-20 16:23:41,672 - video_aligner - WARNING - 处理时间过长: 0.108秒
+2025-03-20 16:23:41,818 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.129秒
+2025-03-20 16:23:41,818 - video_aligner - WARNING - 处理时间过长: 0.129秒
+2025-03-20 16:23:41,953 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.124秒
+2025-03-20 16:23:41,954 - video_aligner - WARNING - 处理时间过长: 0.124秒
+2025-03-20 16:23:42,054 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.118秒
+2025-03-20 16:23:42,055 - video_aligner - WARNING - 处理时间过长: 0.118秒
+2025-03-20 16:23:42,174 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.132秒
+2025-03-20 16:23:42,174 - video_aligner - WARNING - 处理时间过长: 0.132秒
+2025-03-20 16:23:42,304 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.124秒
+2025-03-20 16:23:42,304 - video_aligner - WARNING - 处理时间过长: 0.124秒
+2025-03-20 16:23:42,406 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.108秒
+2025-03-20 16:23:42,407 - video_aligner - WARNING - 处理时间过长: 0.108秒
+2025-03-20 16:23:42,536 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.130秒
+2025-03-20 16:23:42,537 - video_aligner - WARNING - 处理时间过长: 0.130秒
+2025-03-20 16:23:42,659 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.123秒
+2025-03-20 16:23:42,660 - video_aligner - WARNING - 处理时间过长: 0.123秒
+2025-03-20 16:23:42,811 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.140秒
+2025-03-20 16:23:42,811 - video_aligner - WARNING - 处理时间过长: 0.140秒
+2025-03-20 16:23:42,811 - video_aligner - INFO - 暂停视频处理
+2025-03-20 16:23:42,845 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.046秒
+2025-03-20 16:23:42,883 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.038秒
+2025-03-20 16:23:42,919 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.036秒
+2025-03-20 16:23:42,956 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.038秒
+2025-03-20 16:23:42,994 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.037秒
+2025-03-20 16:23:43,032 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.038秒
+2025-03-20 16:23:43,069 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.037秒
+2025-03-20 16:23:43,106 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.037秒
+2025-03-20 16:23:43,145 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.039秒
+2025-03-20 16:23:43,182 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.037秒
+2025-03-20 16:23:43,216 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.034秒
+2025-03-20 16:23:43,249 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.034秒
+2025-03-20 16:23:43,284 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.035秒
+2025-03-20 16:23:43,320 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.036秒
+2025-03-20 16:23:43,356 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.037秒
+2025-03-20 16:23:43,394 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.038秒
+2025-03-20 16:23:43,433 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.039秒
+2025-03-20 16:23:43,472 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.039秒
+2025-03-20 16:23:43,509 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.037秒
+2025-03-20 16:23:43,546 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.036秒
+2025-03-20 16:23:43,583 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.037秒
+2025-03-20 16:23:43,620 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.037秒
+2025-03-20 16:23:43,658 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.038秒
+2025-03-20 16:23:43,698 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.040秒
+2025-03-20 16:23:43,735 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.037秒
+2025-03-20 16:23:43,773 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.037秒
+2025-03-20 16:23:43,811 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.038秒
+2025-03-20 16:23:43,851 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.040秒
+2025-03-20 16:23:43,889 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.039秒
+2025-03-20 16:23:43,930 - video_aligner - WARNING - 帧处理警告: 处理时间过长: 0.041秒
+2025-03-20 16:23:51,885 - video_aligner - INFO - 释放资源
+2025-03-20 16:23:51,885 - video_aligner - INFO - 停止视频处理
+2025-03-20 16:23:52,032 - video_aligner - INFO - 视频处理结束
+2025-03-20 16:23:52,045 - video_aligner - INFO - 资源释放完成
+2025-03-20 16:23:52,055 - video_aligner - INFO - 停止视频处理

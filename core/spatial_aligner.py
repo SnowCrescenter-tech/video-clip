@@ -1,4 +1,4 @@
-import cv2
+import cv2.cuda
 import numpy as np
 from scipy.spatial import distance
 

@@ -101,16 +101,16 @@ class ControlPanel(QWidget):
         blend_layout = QVBoxLayout(blend_group)
         
         # 混合比例滑块
-        blend_layout = QHBoxLayout()
+        ratio_layout = QHBoxLayout()
         blend_label = QLabel("混合比例:")
         self.blend_ratio = QSlider(Qt.Orientation.Horizontal)
         self.blend_ratio.setRange(0, 100)
         self.blend_ratio.setValue(50)
         self.blend_value = QLabel("50%")
-        blend_layout.addWidget(blend_label)
-        blend_layout.addWidget(self.blend_ratio)
-        blend_layout.addWidget(self.blend_value)
-        blend_layout.addLayout(blend_layout)
+        ratio_layout.addWidget(blend_label)
+        ratio_layout.addWidget(self.blend_ratio)
+        ratio_layout.addWidget(self.blend_value)
+        blend_layout.addLayout(ratio_layout)
         
         # 显示设置
         self.show_features = QCheckBox("显示特征点")

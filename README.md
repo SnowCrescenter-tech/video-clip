@@ -15,6 +15,8 @@
 
 - Python 3.8 或更高版本
 - 操作系统：Windows/Linux/MacOS
+- NVIDIA GPU（可选，用于加速处理）
+- CUDA 11.0+（使用GPU加速时需要）
 
 ## 安装说明
 
@@ -32,6 +34,17 @@ source venv/bin/activate
 3. 安装依赖:
 ```bash
 pip install -r requirements.txt
+```
+
+4. GPU加速配置（可选）:
+```bash
+# 安装GPU版本的pytorch和相关库
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# 设置环境变量启用GPU
+# Windows
+set CUDA_VISIBLE_DEVICES=0
+# Linux/MacOS
+export CUDA_VISIBLE_DEVICES=0
 ```
 
 ## 使用方法
@@ -71,6 +84,7 @@ python main.py
 - 建议使用清晰度较好的视频以获得更好的对齐效果
 - 对齐过程中避免关闭程序
 - 如果对齐效果不理想，可以尝试调整视频画面的对比度和亮度
+- 默认情况下，系统会尝试使用GPU加速。如果没有检测到兼容的GPU，将自动切换到CPU模式
 
 ## 错误排除
 
@@ -88,6 +102,20 @@ python main.py
    - 检查电脑配置是否满足要求
    - 可以尝试处理较低分辨率的视频
    - 关闭其他占用资源的程序
+
+4. 如果系统没有使用GPU：
+   - 确认是否安装了兼容的NVIDIA驱动和CUDA
+   - 检查是否正确安装了GPU版本的PyTorch和相关库
+   - 运行以下代码检查GPU是否可用：
+   ```python
+   import torch
+   print("CUDA是否可用:", torch.cuda.is_available())
+   print("可用的GPU数量:", torch.cuda.device_count())
+   print("当前GPU:", torch.cuda.current_device())
+   print("GPU名称:", torch.cuda.get_device_name(0))
+   ```
+   - 确保没有其他程序占用全部GPU内存
+   - 尝试在命令行中使用`--force-gpu`参数启动程序：`python main.py --force-gpu`
 
 ## 许可证
 
